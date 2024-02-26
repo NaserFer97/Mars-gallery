@@ -4,6 +4,8 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^4.4.1",
+    "homepage": "https://NaserFer97.github.io/Mars-gallery/",
+    "gh-pages": "^6.1.1",
     "lodash": "^4.17.15",
     "moment": "^2.24.0",
     "prettier": "^1.19.1",
@@ -19,6 +21,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test --testPathIgnorePatterns=io/",
     "test:all": "react-scripts test",

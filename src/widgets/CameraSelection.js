@@ -2,7 +2,7 @@ import React from "react";
 import "./roverselector.css";
 
 // The RoverSelector component allows users to select which Mars rovers' data they want to view.
-function RoverSelector({ roversActive, rovers, roverSelection, onRoverSelection }) {
+function RoverSelector({ roversActive, rovers = [], roverSelection, onRoverSelection }) {
   
   // onClick function toggles the selection state of a rover when its corresponding
   // UI element is clicked.
