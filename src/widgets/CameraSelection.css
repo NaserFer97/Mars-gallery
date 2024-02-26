@@ -1,0 +1,12 @@
+.CameraSelection-container {
+    display: flex;
+    flex-direction: column; /* Organiza el título y el selector verticalmente */
+    align-items: center; /* Centra los elementos horizontalmente */
+    padding: 20px 0; /* Espaciado vertical sin exceso lateral */
+}
+
+.CameraSelection-title {
+    margin-bottom: 10px; /* Espacio reducido entre el título y el selector */
+    color: #333; /* Color más suave para el texto */
+    font-size: 16px; /* Tamaño de fuente moderado */
+}
